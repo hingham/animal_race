@@ -5,7 +5,7 @@ body {
   margin-right: 100px;
   margin-left: 100px;}
  
-section.woods {
+.woods {
   font-family: Arial;
   font-size: 45px;
   color: rgba(5, 5, 5, .7);
@@ -38,10 +38,6 @@ section.woods h1 {
  
 h1 {
   text-align: center;
-/*  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 0px;*/
   padding: 5px;
   margin-bottom: 0px;
   color: rgba(5, 5, 5, .7);}
@@ -96,10 +92,3 @@ input {
   border-radius: 10px;
 }
 
-aside {
-  display: block;
-  color: white;
-  margin-top: 20px;
-  padding: 20px;
-  font-size: 35px;
-}

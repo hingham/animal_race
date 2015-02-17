@@ -19,6 +19,11 @@ var userName = prompt("What is your name?"),
     userSpeed = prompt("How fast can you run? (mph>"),
     userFocus = prompt("Enter your race focus (1-10).");
  
+ 
+ 
+ 
+ 
+ 
 var turtle = new Animal("Rocky", 2, 8),
     rabbit = new Animal("Achilles", 8, 4),
     userAnimal = new Animal(userName, parseInt(userSpeed), parseInt(userFocus));
@@ -43,4 +48,3 @@ while (turtle.position < distance && rabbit.position < distance && userAnimal.po
 console.log(turtle.report());
 console.log(rabbit.report());
 console.log(userAnimal.report()); 
- 
